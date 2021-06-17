@@ -1,0 +1,14 @@
+<app-topbar></app-topbar>
+
+<div class="container">
+    <app-cep-form (formEventEmitter)="getpostalCode($event)"></app-cep-form>
+    <div class="info">
+        <p><b>Bairro: </b>{{postalCode.bairro}}</p>
+        <p><b>CEP: </b>{{postalCode.cep}}</p>
+        <p><b>Complemento: </b>{{postalCode.complemento}}</p>
+        <p><b>DDD: </b>{{postalCode.ddd}}</p>
+        <p><b>Cidade: </b>{{postalCode.localidade}}</p>
+        <p><b>Rua: </b>{{postalCode.logradouro}}</p>
+        <p><b>UF: </b>{{postalCode.uf}}</p>
+    </div>
+</div>

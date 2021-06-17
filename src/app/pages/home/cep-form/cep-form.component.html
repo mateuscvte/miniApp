@@ -1,0 +1,12 @@
+<div class="container">
+  <form [formGroup]="cepForm" (ngSubmit)="onSubmit()">
+
+    <mat-form-field appearance="outline">
+      <mat-label>CEP:</mat-label>
+      <input matInput type="text" placeholder="Insira um cep válido" formControlName="cep">
+    </mat-form-field>
+
+    <button type="submit" mat-raised-button color="primary">Buscar</button>
+
+  </form>
+</div>

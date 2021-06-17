@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items:center;
+}
+
+/* form { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-
+} */
+
+button {
+    margin-left: 5px;
+    bottom: 5px !important;
+    height: 50px;
+} 
